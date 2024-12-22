@@ -1,0 +1,758 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="img/love.png">
+    <title>Beni dan Bidadari Wedding</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Sacramento&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Countdown-->
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css"/>
+    <script src="countdown/simplyCountdown.min.js"></script>
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white "> 
+        <main>
+            <h4>Kepada <span>Bapak/Ibu/Saudara/i, </span></h4>
+            <h1>Beni & Bidadari</h1>
+            <p>InsyaAllah akan melangsungkan resepsi pernikahan dalam:</p>
+            <div class="simply-countdown"></div>
+            <a href="#home" class="btn btn-lg mt-4" onclick="enableScroll()">Lihat Undangan</a>
+        </main>
+    </section>
+
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Bwedding</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Bwedding</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#nasihat">Nasihat</a>
+              <a class="nav-link" href="#bekal">Bekal</a>
+              <a class="nav-link" href="#souvenir">Souvenir</a>
+              <a class="nav-link" href="#rsvp">RSVP</a>
+              <a class="nav-link" href="#gifts">Gifts</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Acara Pernikahan</h2>
+            <h3>Diselenggarakan pada 25 Juni 2025 / 28 Dzulhijjah 1447H <br> di Subang, Jawa Barat. </br> </h3>
+            <p>Oleh karena itu, dengan segala hormat, kami bermaksud untuk mengundang Bapak/Ibu, Saudara/i, untuk hadir pada acara acara pernikahan kami.</p>
+          </div>
+        </div>
+
+        <div class="row couple">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-8 text-end">
+                <h3>Beni Ardiyanto</h3>
+                <p>Lecturer | Freelancer Design and Programming</p>
+                <p>Putra dari Bpk Prihantoro hafizhahullah <br> dan <br> Ibu Yayat Cahyati hafizhahallah</p>
+              </div>
+              <div class="col-4">
+                <img src="img/1.png" alt="Beni Ardiyanto" class="img-responsive rounded-circle">
+              </div>
+            </div>
+          </div>
+
+          <span class="heart"><i class="bi bi-heart-fill"></i></span>
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-4">
+                <img src="img/2.png" alt="Sega Amalia" class="img-responsive rounded-circle">
+              </div>
+              <div class="col-8">
+                <h3>Bidadari</h3>
+                <p>Lecturer</p>
+                <p>Putra dari Bpk Fulan rahimahullah <br> dan <br> Ibu Fulanah hafizhahallah</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamat">Alamat: Al-Musabaqoh Grand Mosque <br> Karanganyar, Subang, Subang Regency.</p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.61260394559!2d107.7608639!3d-6.570479799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e693c9e56fbe0bf%3A0x40d876e36824b148!2sAl-Musabaqoh%20Grand%20Mosque!5e0!3m2!1sen!2sid!4v1734575137006!5m2!1sen!2sid" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <a href="https://maps.app.goo.gl/Wx6h5v74a4tQoCvX8" target="_blank" class="btn btn-light btn-sm my-3">Klik untuk membuka peta</a>
+            <p class="description">Sekaligus menghadiri Kajian Tentang Pernikahan Oleh Ustadzana Andika Faisal Lubis, Lc, M.A. hafizhahullah</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light mb-5">
+              <div class="card-header">
+                Akad Nikah
+              </div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>08.00 - 10.00 WIB</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Rabu, 25 Juni 2025</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Saat acara akad nikah diharapkan doa serta mendengarkan sepucuk nasihat yang berbobot dengan baik.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light mb-5">
+              <div class="card-header">
+                Walimatul 'Ursy
+              </div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>11.00 - Till end</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Rabu, 25 Juni 2025</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Nikmatilah hidangan sederhana kami dengan penuh syukur.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="nasihat" class="nasihat">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Nasihat Pernikahan</span>
+            <h2>Tujuan Pernikahan</h2>
+            <p class="arabic">لِتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَوَدَّةً وَرَحْمَةً</p>
+            <p style="font-style: italic;">Supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa kasih dan sayang. (QS. Ar Rum - 21)</p>
+            <span>Menikah adalah Sarana Beribadah Menuju Akhirat</span>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image" style="background-image: url(img/doa.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Karena Sakinah Mawaddah Warahmah Ada Caranya</h3>
+                    <span>Sudahkah kau mengetuk Pintu Langit ?</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Maksimalkan dan tunjukkan kebutuhanmu pada Rabb-Mu</p>
+                    <p class="arabic-p">رَبِّ إِنِّى لِمَآ أَنزَلْتَ إِلَىَّ مِنْ خَيْرٍ فَقِيرٌ</p>
+                    <p>"Ya Tuhanku sesungguhnya aku sangat memerlukan sesuatu kebaikan yang Engkau turunkan kepadaku". (QS. Al Qashash : 24)</p>
+                  </div>
+                </div>
+                
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image2" style="background-image: url(img/sujud.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Karena Sakinah Mawaddah Warahmah Ada Caranya.</h3>
+                    <span>Jadilah Insan yang Bertaqwa</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Build Merriege with Taqwa | Selalu ada tempat bagi orang-orang yang Terbaik</p>
+                    <p class="arabic-p2">وَمَنْ يَتَّقِ اللَّهَ يَجْعَلْ لَهُ مَخْرَجًا وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ</p>
+                    <p>Barangsiapa bertakwa kepada Allah niscaya Dia akan mengadakan baginya jalan keluar. Dan memberinya rezeki dari arah yang tiada disangka-sangkanya. (QS. Ath Thalaq : 2-3)</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-image3" style="background-image: url(img/bawedding.png);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Karena Sakinah Mawaddah Warahmah Ada Caranya.</h3>
+                    <span>Jadilah Insan yang Bertaqwa</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Improve Kualitas Diri, tingkatkan Value dihadapan Rabbul 'izzati dan Sabarlah menunggu momentum. Allah tidak akan menyia-nyiakan orang-orang yang berbuat baik.</p>
+                    <p class="arabic-p2">ٱلْخَبِيثَٰتُ لِلْخَبِيثِينَ وَٱلْخَبِيثُونَ لِلْخَبِيثَٰتِ ۖ وَٱلطَّيِّبَٰتُ لِلطَّيِّبِينَ وَٱلطَّيِّبُونَ لِلطَّيِّبَٰتِ</p>
+                    <p>"Wanita-wanita yang keji adalah untuk laki-laki yang keji, dan laki-laki yang keji adalah buat wanita-wanita yang keji (pula), dan wanita-wanita yang baik adalah untuk laki-laki yang baik dan laki-laki yang baik adalah untuk wanita-wanita yang baik (pula)". (QS. An Nuur : 26)</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-image3" style="background-image: url(img/madinah.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Merriege Is Sunnah</h3>
+                    <span>Merriege is sunnah, merriege is mawaddah, merriege is rahmah.</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Merriege is scary ? Benar adanya tatkala menikah hanya modal cinta, tidak saling mengerti tanggung jawab masing-masing, tidak ada kesabaran di dalamnya, tidak ada goals kedepannya, dan ketika menikah dengan orang yang tidak pandai bersyukur. Merriege is scary jika menikah tujuannya bukan syurga dan tidak ada kedekatan dengan Rabb-Nya.</p>
+                    <p>"Moga dia sosok yang aku bincangkan antara aku dan multazam."</p>
+                    <p class="arabic-p2">رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ أَعْيُنٍ وَاجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-image4" style="background-image: url(img/bawedding.png);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Nasihat Syaikh Khalid Ibrahim Ash Sha'qaby</h3>
+                    <span>Da'i di Kementrian Pendidikan dan Pengajaran Kingdom of Arab Saudi Arabia</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Untukmu yang Sudah Sah</p>
+                    <p>Bagi setiap pasangan suami istri, sebelum anda berdua mencari-cari hak anda atas pasangan anda dalam kehidupan, apakah anda sudah mencari apa hak Allah atas anda dalam kehidupan anda ?</p>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="bekal" class="bekal">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>E-Book</span>
+            <h2>Bekal Pernikahan</h2>
+            <p>Moga e-book sederhana namun sangat bermakna ini bisa menjadi bekal menuju Pernikahan yang Samawa dan diridhio oleh Allah Jalla Wa 'Ala. Masih banyak bekal lainnya yang para pembaca budiman bisa tonton kajian para Asatidz yang Kredibel prihal Pernikahan.</p>
+          </div>
+        </div>
+
+        <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/e-book-siap-dipinang" data-toggle="lightbox">
+              <img src="https://ebooksunnah.com/storage/media/xePSM6xQ47aTtHPkTfKiSijrH28k3QI2T9uF4ChM2.jpeg.pagespeed.ic.lKjPJP7Rwt.webp" alt="Buku Siap Dipinang Karya Ustadz Muhammad Abduh Tuasikal" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/siap-naik-pelaminan" data-toggle="lightbox">
+              <img src="https://ebooksunnah.com/storage/media/xpOmLKwM23UjzS1OlvMGmHogx3WDgtASLMo3YlHEC.jpg.pagespeed.ic.b06tddBLJi.webp" alt="Buku Siap Dipinang Karya Ustadz Muhammad Abduh Tuasikal" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/hak-dan-kewajiban-suami-istri" data-toggle="lightbox">
+              <img src="https://ebooksunnah.com/storage/media/ex4HCNsQ8W7KAuaAGuo9t8kId1xYvTyYw88LVrD7.jpg" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/bekal-bekal-pernikahan-menurut-sunnah-nabi" data-toggle="lightbox">
+              <img src="https://ebooksunnah.com/storage/media/qNlxl5VlxeNp90snpVqJYt5CGUjSAlJKzNBTsZ3y.jpg" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/hak-hak-istri" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/xyZ1KEhhzllZ6QyDhLZvoHdHO4ha5GRd7Q08h9dgZ.jpeg.pagespeed.ic.FnfgQZulGm.webp" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/memahami-hak-dan-karakteristik-sifat-dasar-suami-istri-dalam-syariat" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/xD6MSBLCgpvgMxUSwMZsJ32bRKtqwse9GBE8Bw5Hz.jpg.pagespeed.ic.HTlOLJHjjF.webp" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/e-book-hak-hak-suami-terhadap-istri" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/x2c2FNhIJaAfywSHqa3dZf7GL1OsioTzdLe3N2c1w.jpeg.pagespeed.ic.pYdLT0ihAa.webp" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/meneladani-istri-istri-nabi" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/xvd5GGj42vAUGXO1GgzPrt7vBF2jn9iv145ZWx9qn.jpg.pagespeed.ic.-6TnAVB8NN.webp" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/rezeki-susah-setelah-menikah" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/xrMCwHO21voJQ7wmKzsD3TTKyf5sziBhtKpkjLHiF.jpg.pagespeed.ic.mN9aws_wt0.webp" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/kuliah-sambil-nikah-siapa-takut" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/xs8ww3omdCgxGoDSWsJpNR6rNUVnN5VJWGSM5n2zT.jpg.pagespeed.ic.wM3P29OcOc.webp" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks?query=sakinah+hingga+ke+jannah" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/xgM7M1d2jln38Tux9JcsgZV3WTypSKsCZMYmYUsgS.jpg.pagespeed.ic.jGC__H37AD.webp" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/sifat-sifat-istri-salihah" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/x93YIAKw6UA9hwqWd5fWLVN4OGQEfPg5xrGUQZLW0.jpg.pagespeed.ic.CTTpMLBW2N.webp" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/masuk-surga-bersama-keluarga" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/xrU3xZuUoydKJknb1xy7hzBz4j8cl3K8AxyDMsxlh.jpg.pagespeed.ic.Z4F5Z5bLSQ.webp" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/40-hadits-seputar-keluarga-samawa" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/x7FmK2iLPhwDimG6yS0dOJ0glOho3Esr7BfkB8aVv.jpg.pagespeed.ic.YDSCNQ5MEA.webp" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks?query=pemberian+nama+dalam+islam" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/7AW95dc1yghpWMyZwj7Aevym7z7rncINEihFglEH.jpg" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/kunci-kunci-sukses-rumah-tangga-bahagia" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/qTafwC0ZUbvlJ2HgLsztgxsqfKXNQsSKSTB7IwDm.jpg" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/hal-yang-wajib-diketahui-oleh-ibu-rumah-tangga" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/xgIHxjSlBKQzterK5hf4xOwpOskwahxMDI7KhKwQC.jpg.pagespeed.ic.SdaFvWYhv2.webp" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/baiti-jannati-40-nasehat-di-dalam-memperbaiki-rumah-tangga" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/xTnLBC1RJUvsssIHmS7tFKSvTKGiKc7Fw3kxQCgg4.jpg.pagespeed.ic.iQb0_6kWy4.webp" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/rambu-rambu-berbakti-kepada-orangtua" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/xK3pk6WXzxhNUv0SCogWCQbX1vHH4sR8yxvLIFx8N.jpg.pagespeed.ic.RZO5TF3VxA.webp" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/lama-tidak-terdengar-tangis-bayi-di-rumah-tua-pengantin-pembahasan-kedokteran-dan-syariat" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/xkp8L6WZVDzxxCSgKkrXOK8PDx4BXzc8g1KUpx9sZ.jpg.pagespeed.ic.E0df12Y8Qt.webp" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/beginilah-rasulullah-bersama-keluarganya" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/x0ehoAjWtWVs8HfH6cNpzdppHE1BtNcEtzPn6aQiv.jpg.pagespeed.ic.S5QDXtR2RN.webp" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/cincin-pinangan-adab-pernikahan-islami" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/xYRMwChMyPc7Y99G2PA2QgpCUgJpHZAdsylQ4tyKq.jpg.pagespeed.ic.-hYOhWZzpD.webp" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/hadiah-istimewa-untuk-si-buah-hati" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/x8K7SPe0nPgwW9i2VR9chpkOiqI7eHHPI4SFmPA72.jpg.pagespeed.ic.jgPYpKG1qA.webp" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/arbain-pernikahan" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/xonTeOSY0vrFrAl7fIQ0oMOKYq5B8izy05i8JzbjY.jpg.pagespeed.ic.6QlGc6lDBr.webp" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/pernak-pernik-seputar-pernikahan" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/xBfikizO5yNgEaq3356YPNyRCwcKpdq64Q0KCBuuo.jpg.pagespeed.ic.-PdUzjwJDG.webp" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/ketika-tulusnya-cinta-dibalas-pengkhianatan-dan-perselingkuhan" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/xi5CKwzvxbz8T1TSq4qZK8RqfpPAFaKOZyMQ5zRIl.jpg.pagespeed.ic.FLzODvo8hi.webp" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/kumpulan-tanya-jawab-seputar-suami-yang-bermasalah" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/xh558Xo70J0L5fp4ZEc6g91T2Ej1IocraIk5gOqoJ.jpg.pagespeed.ic.B0hxRD96_h.webp" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/20-konflik-rumah-tangga-dan-solusinya" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/Ddq9lfMT0ZM7HGeiFcuk3mhIdymS1cNS7vJwaNX7.jpg" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/40-hadits-seputar-rumah-tangga-pasutri" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/BX6lZFsj5rSxKbjjvyGsb7nLm8XD0f8M65kupB1A.jpg" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/buah-hati-yang-dinantikan-cara-mendapatkan-anak-tinjauan-syariat-medis" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/xgXkbcAq7RBx7cFSrVQfJjjeGk8ZAc5fLFFMFAheW.jpg.pagespeed.ic.M22VPXCLMb.webp" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/belajar-romantis-dari-rasulullah" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/xGYNCvM2RWDVycB5w9vcZLLH127xtFJ4PDPT1EUiz.jpg.pagespeed.ic.0kZ1Jm0_6P.webp" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://ebooksunnah.com/en/ebooks/peran-wanita-dalam-perbaikan-masyarakat-daurul-mar-ah-fii-ishlaahil-mujtama" target="_blank">
+              <img src="https://ebooksunnah.com/storage/media/xXYq0rM2PdNpNBc5vxDOyQCurrWBssW3ZFTRHdZsQ.jpg.pagespeed.ic.atxjdECrXp.webp" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://sekolahislamannida.sch.id/wp-content/uploads/2023/11/E-Book_Persiapan-Pernikahan.pdf" target="_blank">
+              <img src="img/ebook-pernikahan-3.jpg" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+          <div class="col mt-3">
+            <a href="https://sekolahislamannida.sch.id/wp-content/uploads/2023/11/Mengenal-calon-pasangan.pdf" target="_blank">
+              <img src="img/ebook-pernikahan-1.jpg" alt="" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="rsvp" class="rsvp">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Konfirmasi Kehadiran</h2>
+            <p>Isi form di bawah ini untuk melakukan konfirmasi kehadiran, jazaakumullahu khairan baarakallahu fiikum wa yassarallahu umuurakum.</p>
+          </div>
+        </div>
+
+        <form class="row row-cols-md-auto g-3 align-items-center justify-content-center" method="POST" 
+        action="https://script.google.com/macros/s/AKfycbwDOTwkM-4g9m-xda-AzupLbP1H5nZvun9RPC4tU3AM3AxKN_eLVnPvHYTHA8O40OQrsg/exec" id="my-form">
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="nama" name="nama">
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="jumlah" class="form-label">Jumlah</label>
+              <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="5" length="1" value="1">
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="status" class="form-label">Konfirmasi</label>
+              <select name="status" id="status" class="form-select">
+                <option selected>Pilih salah satu</option>
+                <option value="Hadir">Hadir</option>
+                <option value="Tidak Hadir">Tidak Hadir</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-12" style="margin-top: 35px;">
+            <button class="btn btn-primary">Kirim</button>
+          </div>
+        </form>
+
+        <div class="row justify-content-center mt-5">
+          <div class="col-md-6">
+            <div id="disqus_thread"></div>
+              <script>
+                  /**
+                  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                  /*
+                  var disqus_config = function () {
+                  this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                  };
+                  */
+                  (function() { // DON'T EDIT BELOW THIS LINE
+                  var d = document, s = d.createElement('script');
+                  s.src = 'https://ba-wedding.disqus.com/embed.js';
+                  s.setAttribute('data-timestamp', +new Date());
+                  (d.head || d.body).appendChild(s);
+                  })();
+              </script>
+              <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="souvenir" class="souvenir">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Moga bisa bermanfaat souvenir karya kami</span>
+            <h2>My Souvenir</h2>
+            <p>Jazaakumullahu khairan</p>
+          </div>
+        </div>
+
+        <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+          <div class="col mt-3">
+            <a href="img/bekalnikah/benifoto.png" data-toggle="lightbox">
+              <img src="img/My_Souvenir.png" alt="Buku Siap Dipinang Karya Ustadz Muhammad Abduh Tuasikal" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+      </div>
+    </section>
+
+    <section id="gifts" class="gifts">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Doa dan Ungkapan Tanda Kasih</span>
+            <h2>Kirim Hadiah</h2>
+            <p><i><strong>Silahkan datang dengan Doa yang Ridho dan antum tidak diwajibkan untuk membawa harta, Jazaakumullahu Khairan.</strong></i></p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center text-center">
+          <div class="col-md-6">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <div class="fw-bold">BSI</div>
+                8460748110 - BENI ARDIYANTO
+              </li>
+              <!-- <li class="list-group-item">
+                <div class="fw-bold">MANDIRI</div>
+                8460748110 - BENI ARDIYANTO
+              </li>
+              <li class="list-group-item">
+                <div class="fw-bold">Saweria</div>
+                <img src="img/saweria.png" alt="Saweria QR" class="img-thumbnail" width="150">
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <small class="block">&copy; 2025M / 1447H Beni Studio. All Rights Reserved</small>
+            <small class="block">Design by <a href="https://instagram.com/beniardiyant_/" target="_blank">@beniardiyanto</a></small>
+
+            <ul class="mt-3">
+              <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+              <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+              <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+              <li><a href="#"><i class="bi bi-telegram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="audio-cantainer">
+      <audio id="bgm" autoplay loop>
+        <source src="audio/wedding.mp3" type="audio/mp3">
+      </audio>
+
+      <div class="audio-icon" style="display: none;">
+        <i class="bi bi-disc"></i>
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+    <script>
+        simplyCountdown('.simply-countdown', {
+        year: 2025, // Target year (required)
+        month: 6, // Target month [1-12] (required)
+        day: 25, // Target day [1-31] (required)
+        hours: 8, // Target hour [0-23], default: 0
+        words: { // Custom labels, with lambda for plurals
+            days: { singular: 'hari', plural: 'hari'},
+            hours: { singular: 'jam', plural: 'jam'},
+            minutes: { singular: 'menit', plural: 'menit'},
+            seconds: { singular: 'detik', plural: 'detik'},
+            },
+        });
+    </script>
+
+    <script>
+      const stickyTop = document.querySelector('.sticky-top');
+      const offcanvas = document.querySelector('.offcanvas');
+
+      offcanvas.addEventListener('show.bs.offcanvas', function() {
+        stickyTop.style.overflow = 'visible';
+      });
+
+      
+      offcanvas.addEventListener('hidden.bs.offcanvas', function() {
+        stickyTop.style.overflow = 'hidden';
+      });
+    </script>
+
+    <script>
+      const rootElement = document.querySelector(":root");
+      const audioIcon = document.querySelector('.audio-icon');
+      const iconAu = document.querySelector('.audio-icon i');
+      const bgm = document.querySelector('#bgm');
+      let isPlaying = false;
+
+      function disableScroll() {
+        scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+        window.onscroll = function () {
+          window.scrollTo(scrollTop, scrollLeft);
+        }
+
+        rootElement.style.scrollBehavior = 'auto';
+      }
+
+      function enableScroll() {
+        window.onscroll = function () { }
+        rootElement.style.scrollBehavior = 'smooth';
+        // localStorage.setItem('opened', 'true');
+        playAudio();
+      }
+
+      function playAudio() {
+        bgm.volume = 0.6;
+        audioIcon.style.display = 'flex';
+        bgm.play();
+        isPlaying = true;
+      }
+
+      audioIcon.onclick = function () {
+        if (isPlaying) {
+          bgm.pause();
+          iconAu.classList.remove('bi-disc');
+          iconAu.classList.add('bi-pause-circle');
+        } else {
+          bgm.play();
+          iconAu.classList.add('bi-disc');
+          iconAu.classList.remove('bi-pause-circle');
+        }
+
+
+        isPlaying = !isPlaying;
+      }
+
+      // if (!localStorage.getItem('opened')) {
+      //   disableScroll();
+      // }
+      disableScroll();
+
+    </script>
+
+    <script>
+      // pada saat halamannya di load bikin sebuah variable form yang ngambil element idnya my-form korelasi dengan baris 339
+      window.addEventListener("load", function() {
+      const form = document.getElementById('my-form');
+      // ketika form di submit jalankan fungsi berikut 
+      form.addEventListener("submit", function(e) {
+        // matikan fungsi defaultnya supaya pindah ke hal lain
+        e.preventDefault();
+        // ambil datanya
+        const data = new FormData(form);
+        // jalankan fungsi fecth
+        const action = e.target.action;
+        fetch(action, {
+          method: 'POST',
+          body: data,
+        })
+        // jika sudah berhasil tampilkan allert 
+          .then(() => {
+          alert("Jazaakumullahu khairan. Konfirmasi kehadiran berhasil terkirim!");
+        })
+      });
+    });
+    
+
+    </script>
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const nama = urlParams.get('n') || '';
+      const pronoun = urlParams.get('p') || 'Bapak/Ibu/Saudara/i';
+      const namaContainer = document.querySelector('.hero h4 span');
+      namaContainer.innerText = `${pronoun} ${nama},`.replace(/ ,$/, ',');
+
+      document.querySelector('#nama').value = nama;
+    </script>
+
+  </body>
+</html>
